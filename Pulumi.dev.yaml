@@ -1,0 +1,9 @@
+encryptionsalt: v1:wV/jr3dad0I=:v1:zbqA47dkpF1yGTjr:zjmvO0dL8czjEUwmvLlQ5srNEH2jlA==
+config:
+  aws:region: us-east-1
+  pulumi-load-balancer-aws:minSize: "1"
+  pulumi-load-balancer-aws:desiredCapacity: "2"
+  pulumi-load-balancer-aws:maxSize: "4"
+  pulumi-load-balancer-aws:instanceType: t2.micro
+  pulumi-load-balancer-aws:cpuTarget: "60"
+  aws:profile: default

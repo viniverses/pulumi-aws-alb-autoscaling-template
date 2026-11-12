@@ -1,0 +1,4 @@
+node_modules/
+bin/
+.pulumi/
+pnpm-lock.yaml
