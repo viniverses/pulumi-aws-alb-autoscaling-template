@@ -6,7 +6,7 @@ export const minSize = config.getNumber("minSize") ?? 1;
 export const desiredCapacity = config.getNumber("desiredCapacity") ?? 2;
 export const maxSize = config.getNumber("maxSize") ?? 4;
 export const cpuTarget = config.getNumber("cpuTarget") ?? 60;
-export const instanceType = config.get("instanceType") ?? "t3.micro";
+export const instanceType = config.get("instanceType") ?? "t2.micro";
 
 if (
   ![minSize, desiredCapacity, maxSize].every(Number.isInteger) ||
