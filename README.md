@@ -1,3 +1,5 @@
+![AWS Load Balancer — EC2 Auto Scaling, Pulumi and TypeScript](https://i.ibb.co/nsbrFM7x/Screenshot-49.png)
+
 # AWS Template: Pulumi, ALB, and EC2 Auto Scaling
 
 A reusable TypeScript template for an AWS Application Load Balancer, Target Group, and EC2 Auto Scaling Group. Starts with **2 instances**, scales between **1 and 4**, and targets **60% average CPU utilization**.
